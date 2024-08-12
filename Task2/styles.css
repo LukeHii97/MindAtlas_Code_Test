@@ -1,0 +1,70 @@
+/* Basic styling for the body and font */
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+/* Styling for the heading */
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+/* Styling for the forms */
+form {
+  margin-bottom: 20px;
+}
+
+/* Styling for text inputs */
+input[type="text"] {
+  padding: 5px;
+  font-size: 16px;
+}
+
+/* Styling for submit and reset buttons */
+input[type="submit"],
+input[type="reset"] {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Styling for tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+/* Styling for table borders */
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+/* Styling for table cells */
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Styling for table headers */
+th {
+  background-color: #f4f4f4;
+}
+
+/* Styling for alternate row colors */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Styling for the "No data found" message */
+#noData {
+  color: #777;
+  text-align: center;
+  padding: 20px;
+  display: none;
+}
